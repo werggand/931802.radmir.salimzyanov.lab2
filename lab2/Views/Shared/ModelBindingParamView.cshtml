@@ -1,0 +1,23 @@
+﻿@model lab2.Models.MyModel
+
+@{
+    ViewData["Title"] = "ModelBindingParamView";
+}
+<div>
+    <h1 class="display-4">Manual</h1>
+    <form method="post">
+        <input name="mnum1" />
+        <br />
+        <select name="mact">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mult">*</option>
+            <option value="div">/</option>
+        </select>
+        <br />
+        <input name="mnum2" />
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+    </form>
+</div>
